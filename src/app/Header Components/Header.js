@@ -35,7 +35,9 @@ function Header() {
           <HeaderItem title="STORES" Icon={IoIosPin} />
         </div>
         <div className="flex flex-row ml-auto mr-9">
-          <HeaderItem title="ACCOUNT" Icon={VscAccount} />
+          <Link TP="/">
+            <HeaderItem title="HOME" Icon={VscAccount} />
+          </Link>
 
           <HeaderItem title="SIGN UP" Icon={HiLogin} />
 
