@@ -14,7 +14,7 @@ function Header() {
     <>
       <header className="flex items-center pt-5 justify-start shadow-md bg-awesomegreen ">
         <div className="flex flex-row justify-start">
-          <Link TP="/">
+          <Link to="/">
             <HeaderItem title="HOME" Icon={VscAccount} />
           </Link>
           <Link to="/order">
