@@ -30,8 +30,6 @@ function Header() {
 
           <HeaderItem title="McDONALD's GREEN" Icon={FaEnvira} />
 
-          <HeaderItem title="REWARDS" Icon={TiTick} />
-
           <HeaderItem title="STORES" Icon={IoIosPin} />
         </div>
         <div className="flex flex-row ml-auto mr-9">
