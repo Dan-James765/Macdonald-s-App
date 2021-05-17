@@ -2,7 +2,7 @@ import React from "react";
 import HeaderItem from "./HeaderItem";
 import { MdRestaurantMenu } from "react-icons/md";
 import { FaEnvira } from "react-icons/fa";
-import { TiTick } from "react-icons/ti";
+// import { TiTick } from "react-icons/ti";
 import { IoIosPin } from "react-icons/io";
 import { Link } from "react-router-dom";
 import { VscAccount } from "react-icons/vsc";
