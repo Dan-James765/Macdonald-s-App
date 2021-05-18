@@ -12,7 +12,17 @@ function Header() {
   return (
     <>
       <header className="flex items-center pt-5 justify-start shadow-md bg-awesomegreen ">
-        <div className="flex flex-row justify-start">
+        <div className="flex flex-row justify-start items-center">
+          <div>
+            <Link to="/">
+              <img
+                className="object-contain mb-6 ml-8 h-16"
+                src="http://logok.org/wp-content/uploads/2014/06/McDonalds-logo-880x660.png"
+                alt=""
+              />
+            </Link>
+          </div>
+
           <Link to="/">
             <HeaderItem title="HOME" Icon={VscAccount} />
           </Link>
@@ -28,15 +38,6 @@ function Header() {
           <HeaderItem title="SIGN UP" Icon={HiLogin} />
 
           <HeaderItem title="CHECKOUT" Icon={HiShoppingCart} />
-          <Link to="/">
-            <div>
-              <img
-                className="object-contain h-12 mb-6"
-                src="http://logok.org/wp-content/uploads/2014/06/McDonalds-logo-880x660.png"
-                alt=""
-              />
-            </div>
-          </Link>
         </div>
       </header>
     </>
