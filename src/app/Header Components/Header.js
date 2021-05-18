@@ -4,7 +4,7 @@ import { MdRestaurantMenu } from "react-icons/md";
 import { FaEnvira } from "react-icons/fa";
 import { IoIosPin } from "react-icons/io";
 import { Link } from "react-router-dom";
-import { VscAccount } from "react-icons/vsc";
+import { SiMcdonalds } from "react-icons/si";
 import { HiLogin } from "react-icons/hi";
 import { HiShoppingCart } from "react-icons/hi";
 
@@ -24,7 +24,7 @@ function Header() {
           </div>
 
           <Link to="/">
-            <HeaderItem title="HOME" Icon={VscAccount} />
+            <HeaderItem title="HOME" Icon={SiMcdonalds} />
           </Link>
           <Link to="/order">
             <HeaderItem title="MENU" Icon={MdRestaurantMenu} />
